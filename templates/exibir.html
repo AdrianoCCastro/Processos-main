@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{titulo}}</title>
+</head>
+<body>
+    {{dados.first_name}}
+    {{dados.last_name}}
+
+    {{dados.id}}
+    {{dados.descricao}}
+    <img src="{{dados.foto.url}}">
+    {{mensagem}}
+    <a href="/{{aplicativo}}/alterar_{{aplicativo}}/{{dados.id}}"><button  class="btn btn-success col-12">Alterar</button></a>
+    <a href="/{{aplicativo}}/deletar_{{aplicativo}}/{{dados.id}}"><button  class="btn btn-success col-12">Deletar</button></a>
+    <a href="/processo/exibir_processo/2"><button  class="btn btn-success col-12">Proximo</button></a>
+</body>
+</html>
